@@ -1,0 +1,25 @@
+// app global css in SCSS form
+@font-face {
+  font-family: JosefinSans;
+  src: url(./fonts/JosefinSans.ttf);
+}
+@font-face {
+  font-family: Signika;
+  src: url(./fonts/Signika.ttf);
+}
+* {
+  font-family: 'Signika';
+}
+
+.q-item__section--main, .q-button__content, .q-tab__label {
+  font-size: 16px !important;
+}
+
+
+.q-btn {
+  font-size: 16px !important;
+}
+
+.q-table th {
+  font-size: 15px!important;
+}

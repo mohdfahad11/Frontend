@@ -1,0 +1,11 @@
+
+.print-doc-class {
+  color: aquamarine;
+  background-color: antiquewhite;
+}
+@media print {
+  @page {
+    /* color: blueviolet; */
+    size: landscape;
+  }
+}

@@ -52,12 +52,12 @@
     </div>
 <!-- my code -->
     <q-dialog v-model="modifierDialog" persistent>
-      <q-card style="min-width: 1100px; max-width: 1000px; width: 1000px">
+      <q-card style=" max-width: 111699px; max-height: 679px">
         <q-card-actions
-          class="bg-primary row items-center q-mx-none sticky-header"
+          class="bg-primary row items-center h-48px sticky-header"
           style=""
         >
-          <div class="col col-10 text-h6 text-white text-bold">
+          <div class="col col-10 text-h5 text-white text-bold">
             <span class="q-px-sm q-py-sm rounded-borders"
               >{{ productDetails ? productDetails.products.name : null }}
             </span>
